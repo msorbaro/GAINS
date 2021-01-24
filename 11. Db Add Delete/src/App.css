@@ -1,0 +1,43 @@
+.body {
+  background-color: rgb(251, 209, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.saveButton {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(150, 142, 204);
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  border-color: rgb(150, 142, 204);
+  border-radius: 10px;
+}
+
+.inputSystem {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mainContainer {
+  width: 100vw;
+}
+
+.inputs {
+  width: 40vw;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
